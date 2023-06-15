@@ -120,3 +120,41 @@ Traceback (most recent call last):
   File "/home/yoon/.local/lib/python3.10/site-packages/stackapi/stackapi.py", line 199, in fetch
     raise StackAPIError(self._previous_call, str(e), str(e), str(e))
 stackapi.stackapi.StackAPIError: (None, "HTTPSConnectionPool(host='api.stackexchange.com', port=443): Max retries exceeded with url: /2.2/sites/?pagesize=1000&page=1&filter=%21%2AL1%2AAY-85YllAr2%29 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f595b201fc0>, 'Connection to api.stackexchange.com timed out. (connect timeout=None)'))", "HTTPSConnectionPool(host='api.stackexchange.com', port=443): Max retries exceeded with url: /2.2/sites/?pagesize=1000&page=1&filter=%21%2AL1%2AAY-85YllAr2%29 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f595b201fc0>, 'Connection to api.stackexchange.com timed out. (connect timeout=None)'))", "HTTPSConnectionPool(host='api.stackexchange.com', port=443): Max retries exceeded with url: /2.2/sites/?pagesize=1000&page=1&filter=%21%2AL1%2AAY-85YllAr2%29 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f595b201fc0>, 'Connection to api.stackexchange.com timed out. (connect timeout=None)'))")
+#####################################################################
+2023-06-15 23:37:05.464920+09:00
+Traceback (most recent call last):
+  File "/home/yoon/ChatGPT/ChatGPT-blog/main.py", line 14, in <module>
+    SITE = StackAPI('stackoverflow')
+  File "/home/yoon/.local/lib/python3.10/site-packages/stackapi/stackapi.py", line 72, in __init__
+    sites = self.fetch('sites', filter='!*L1*AY-85YllAr2)', pagesize=1000)
+  File "/home/yoon/.local/lib/python3.10/site-packages/stackapi/stackapi.py", line 197, in fetch
+    response = requests.get(base_url, params=params, proxies=self.proxy)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 1012, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 411, in connect
+    self.sock = ssl_wrap_socket(
+  File "/usr/lib/python3/dist-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/usr/lib/python3/dist-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 513, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1071, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1342, in do_handshake
+    self._sslobj.do_handshake()
+KeyboardInterrupt
