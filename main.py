@@ -127,22 +127,22 @@ except Exception as e:
     print("제목 오류발생 : ", e)
     raise SystemExit("프로그램 종료.")
 
-try:
-    # 본문 생성
-    common_error_response = generate_blog_common_error(title)
-    common_error = '\n'.join(
-        common_error_response['choices'][0]['message']['content'].strip().split('\n')[1:])
-    print("본문 1/2 만들었습니다. :",
-          common_error_response["usage"]["total_tokens"])
+# try:
+#     # 본문 생성
+#     common_error_response = generate_blog_common_error(title)
+#     common_error = '\n'.join(
+#         common_error_response['choices'][0]['message']['content'].strip().split('\n')[1:])
+#     print("본문 1/2 만들었습니다. :",
+#           common_error_response["usage"]["total_tokens"])
 
-    error_body_response = generate_blog_error_body(title)
-    error_body = '\n'.join(
-        error_body_response['choices'][0]['message']['content'].strip().split('\n')[1:])
-    print("본문 2/2 만들었습니다. :",
-          error_body_response["usage"]["total_tokens"])
-except Exception as e:
-    print("본문 오류발생 : ", e)
-    raise SystemExit("프로그램 종료.")
+#     error_body_response = generate_blog_error_body(title)
+#     error_body = '\n'.join(
+#         error_body_response['choices'][0]['message']['content'].strip().split('\n')[1:])
+#     print("본문 2/2 만들었습니다. :",
+#           error_body_response["usage"]["total_tokens"])
+# except Exception as e:
+#     print("본문 오류발생 : ", e)
+#     raise SystemExit("프로그램 종료.")
 
 try:
     # 참고할만한 사이트
