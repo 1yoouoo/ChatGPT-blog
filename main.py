@@ -127,22 +127,22 @@ except Exception as e:
     print("제목 오류발생 : ", e)
     raise SystemExit("프로그램 종료.")
 
-# try:
-#     # 본문 생성
-#     common_error_response = generate_blog_common_error(title)
-#     common_error = '\n'.join(
-#         common_error_response['choices'][0]['message']['content'].strip().split('\n')[1:])
-#     print("본문 1/2 만들었습니다. :",
-#           common_error_response["usage"]["total_tokens"])
+try:
+    # 본문 생성
+    common_error_response = generate_blog_common_error(title)
+    common_error = '\n'.join(
+        common_error_response['choices'][0]['message']['content'].strip().split('\n')[1:])
+    print("본문 1/2 만들었습니다. :",
+          common_error_response["usage"]["total_tokens"])
 
-#     error_body_response = generate_blog_error_body(title)
-#     error_body = '\n'.join(
-#         error_body_response['choices'][0]['message']['content'].strip().split('\n')[1:])
-#     print("본문 2/2 만들었습니다. :",
-#           error_body_response["usage"]["total_tokens"])
-# except Exception as e:
-#     print("본문 오류발생 : ", e)
-#     raise SystemExit("프로그램 종료.")
+    error_body_response = generate_blog_error_body(title)
+    error_body = '\n'.join(
+        error_body_response['choices'][0]['message']['content'].strip().split('\n')[1:])
+    print("본문 2/2 만들었습니다. :",
+          error_body_response["usage"]["total_tokens"])
+except Exception as e:
+    print("본문 오류발생 : ", e)
+    raise SystemExit("프로그램 종료.")
 
 try:
     # 참고할만한 사이트
@@ -170,16 +170,13 @@ tags: {tags}
 ---
 '''
 
-# output = page_outline + '\n' + \
-#     "![Image of a Cat](http://source.unsplash.com/1600x900/?cat)" + \
-#     '\n' + common_error + '\n' + error_body + '\n' + recommend_site
 output = page_outline + '\n' + \
     "![Image of a Cat](http://source.unsplash.com/1600x900/?cat)" + \
-    recommend_site
+    '\n' + common_error + '\n' + error_body + '\n' + recommend_site
 print("파일을 생성하기 전 잠깐 기다립니다.")
-# blog_directory = "/home/yoon/blog/1yoouoo.github.io/_posts"
+blog_directory = "/home/yoon/ChatGPT/ChatGPT-blog/_posts"
 
-blog_directory = "/Users/blanc/Documents/ChatGPT/ChatGPT-blog/_posts"
+# blog_directory = "/Users/blanc/Documents/ChatGPT/ChatGPT-blog/_posts"
 
 time.sleep(2)
 # 파일 이름 생성
