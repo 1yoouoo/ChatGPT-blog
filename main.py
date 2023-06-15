@@ -15,7 +15,7 @@ SITE = StackAPI('stackoverflow')
 one_year_ago = (datetime.utcnow() - timedelta(days=365)).strftime('%Y-%m-%d')
 
 # Random하게 tag선택
-tag_list = ['python']
+tag_list = ['java']
 selected_tag = random.choice(tag_list)
 print(f'카테고리는 {selected_tag} 로 하겠습니다.')
 try:
