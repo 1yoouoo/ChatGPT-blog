@@ -15,8 +15,7 @@ SITE = StackAPI('stackoverflow')
 one_year_ago = (datetime.utcnow() - timedelta(days=365)).strftime('%Y-%m-%d')
 
 # Random하게 tag선택
-tag_list = ['javascript', 'typescript',
-            'reactjs', 'html', 'css', 'nestjs', 'nodejs']
+tag_list = ['nestjs']
 selected_tag = random.choice(tag_list)
 print(f'카테고리는 {selected_tag} 로 하겠습니다.')
 try:
@@ -40,6 +39,7 @@ except Exception as e:
     raise SystemExit("프로그램 종료.")
 
 openai.api_key = os.environ.get('OPEN_API_KEY')
+
 
 def generate_response(prompt, max_tokens, temperature):
     completion = openai.ChatCompletion.create(
@@ -175,8 +175,9 @@ output = page_outline + '\n' + \
     '\n' + common_error + '\n' + error_body + '\n' + recommend_site
 
 print("파일을 생성하기 전 잠깐 기다립니다.")
-blog_directory = "/home/yoon/blog/1yoouoo.github.io/_posts"
-# mac_directory = "/Users/blanc/Documents/ChatGPT/1yoouoo.github.io/_posts"
+# blog_directory = "/home/yoon/blog/1yoouoo.github.io/_posts"
+
+blog_directory = "/Users/blanc/Documents/ChatGPT/ChatGPT-blog/_posts"
 
 time.sleep(2)
 # 파일 이름 생성
