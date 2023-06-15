@@ -170,10 +170,12 @@ tags: {tags}
 ---
 '''
 
+# output = page_outline + '\n' + \
+#     "![Image of a Cat](http://source.unsplash.com/1600x900/?cat)" + \
+#     '\n' + common_error + '\n' + error_body + '\n' + recommend_site
 output = page_outline + '\n' + \
     "![Image of a Cat](http://source.unsplash.com/1600x900/?cat)" + \
-    '\n' + common_error + '\n' + error_body + '\n' + recommend_site
-
+    recommend_site
 print("파일을 생성하기 전 잠깐 기다립니다.")
 # blog_directory = "/home/yoon/blog/1yoouoo.github.io/_posts"
 
