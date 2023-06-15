@@ -1,4 +1,4 @@
-# active python
+# # active python
 # echo "started"
 # cd /home/yoon/blog/1yoouoo.github.io
 # /usr/bin/python3 main.py >> /home/yoon/blog/1yoouoo.github.io/main.log 2>&1 
@@ -14,7 +14,7 @@
 # active python
 echo "started"
 cd /Users/blanc/Documents/ChatGPT/1yoouoo.github.io
-/opt/homebrew/bin/python3 main.py >> /Users/blanc/Documents/ChatGPT/1yoouoo.github.io/main.log 2>&1
+/opt/homebrew/bin/python3 main.py >> /Users/blanc/Documents/ChatGPT/ChatGPT-blog/main.log 2>&1
 
 git pull
 git config --local user.name "blanc"
