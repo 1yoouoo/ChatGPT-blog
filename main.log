@@ -158,3 +158,15 @@ Traceback (most recent call last):
   File "/usr/lib/python3.10/ssl.py", line 1342, in do_handshake
     self._sslobj.do_handshake()
 KeyboardInterrupt
+#####################################################################
+2023-06-16 03:00:01.714648+09:00
+카테고리는 java 로 하겠습니다.
+주제는 GraalVM (native-image) can not compile logback dependencies 로 하겠습니다.
+제목 만들었습니다. "Resolving GraalVM Compilation Issues with Logback Dependencies" : 87
+본문 1/2 만들었습니다. : 1229
+본문 2/2 만들었습니다. : 1110
+참고할만한 사이트를 만들었습니다. "Resolving GraalVM Compilation Issues with Logback Dependencies" : 427
+파일을 생성하기 전 잠깐 기다립니다.
+파일을 생성하겠습니다.
+모든 작업이 끝났습니다.
+#####################################################################
