@@ -1,0 +1,3 @@
+User-agent: *
+ Allow: /
+ Sitemap: https://1yoouoo.github.io/sitemap.xml
