@@ -56,3 +56,67 @@ Traceback (most recent call last):
   File "/home/yoon/ChatGPT/ChatGPT-blog/main.py", line 126, in <module>
     print("title", title)
 NameError: name 'title' is not defined. Did you mean: 'time'?
+#####################################################################
+2023-06-15 23:30:01.998250+09:00
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 1012, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 174, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7f595b201fc0>, 'Connection to api.stackexchange.com timed out. (connect timeout=None)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.stackexchange.com', port=443): Max retries exceeded with url: /2.2/sites/?pagesize=1000&page=1&filter=%21%2AL1%2AAY-85YllAr2%29 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f595b201fc0>, 'Connection to api.stackexchange.com timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yoon/.local/lib/python3.10/site-packages/stackapi/stackapi.py", line 197, in fetch
+    response = requests.get(base_url, params=params, proxies=self.proxy)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.stackexchange.com', port=443): Max retries exceeded with url: /2.2/sites/?pagesize=1000&page=1&filter=%21%2AL1%2AAY-85YllAr2%29 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f595b201fc0>, 'Connection to api.stackexchange.com timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yoon/ChatGPT/ChatGPT-blog/main.py", line 14, in <module>
+    SITE = StackAPI('stackoverflow')
+  File "/home/yoon/.local/lib/python3.10/site-packages/stackapi/stackapi.py", line 72, in __init__
+    sites = self.fetch('sites', filter='!*L1*AY-85YllAr2)', pagesize=1000)
+  File "/home/yoon/.local/lib/python3.10/site-packages/stackapi/stackapi.py", line 199, in fetch
+    raise StackAPIError(self._previous_call, str(e), str(e), str(e))
+stackapi.stackapi.StackAPIError: (None, "HTTPSConnectionPool(host='api.stackexchange.com', port=443): Max retries exceeded with url: /2.2/sites/?pagesize=1000&page=1&filter=%21%2AL1%2AAY-85YllAr2%29 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f595b201fc0>, 'Connection to api.stackexchange.com timed out. (connect timeout=None)'))", "HTTPSConnectionPool(host='api.stackexchange.com', port=443): Max retries exceeded with url: /2.2/sites/?pagesize=1000&page=1&filter=%21%2AL1%2AAY-85YllAr2%29 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f595b201fc0>, 'Connection to api.stackexchange.com timed out. (connect timeout=None)'))", "HTTPSConnectionPool(host='api.stackexchange.com', port=443): Max retries exceeded with url: /2.2/sites/?pagesize=1000&page=1&filter=%21%2AL1%2AAY-85YllAr2%29 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f595b201fc0>, 'Connection to api.stackexchange.com timed out. (connect timeout=None)'))")
