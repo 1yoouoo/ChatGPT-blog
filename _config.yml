@@ -1,19 +1,19 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://java.blanc-blog.com"
+url: "https://spring.blanc-blog.com"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Blanc # site's title
-description: "A website with java error blog posts" # used by search engines
+description: "A website with spring error blog posts" # used by search engines
 avatar: assets/img/avatar.jpeg # Empty for no avatar in navbar
 favicon: assets/favicon.ico # Icon displayed in the tab
 
 # Header and footer text
-header_text: java Error Blog # Change Blog header text
+header_text: spring Error Blog # Change Blog header text
 header_feature_image: assets/img/11111.jpg
 header_feature_image_responsive: true
 footer_text: >
-  https://java.blanc-blog.com
+  https://spring.blanc-blog.com
 
 # Blog
 excerpt: true # Or "truncate" (first 250 characters), "false" to disable
