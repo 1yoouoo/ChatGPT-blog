@@ -16,7 +16,7 @@ one_year_ago = (datetime.utcnow() - timedelta(days=365)).strftime('%Y-%m-%d')
 
 # Random하게 tag선택
 tag_list = ['javascript', 'typescript',
-            'reactjs', 'html', 'css', 'nestjs', 'nodejs']
+            'reactjs', 'html', 'css', 'nestjs']
 selected_tag = random.choice(tag_list)
 print(f'카테고리는 {selected_tag} 로 하겠습니다.')
 try:
@@ -40,6 +40,7 @@ except Exception as e:
     raise SystemExit("프로그램 종료.")
 
 openai.api_key = os.environ.get('OPEN_API_KEY')
+
 
 def generate_response(prompt, max_tokens, temperature):
     completion = openai.ChatCompletion.create(
