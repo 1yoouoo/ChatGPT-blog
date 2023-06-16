@@ -15,8 +15,7 @@ SITE = StackAPI('stackoverflow')
 one_year_ago = (datetime.utcnow() - timedelta(days=365)).strftime('%Y-%m-%d')
 
 # Random하게 tag선택
-tag_list = ['javascript', 'typescript',
-            'reactjs', 'html', 'css', 'nestjs']
+tag_list = ['nestjs', 'typescript', 'reactjs', 'react', 'css', 'javascript']
 selected_tag = random.choice(tag_list)
 print(f'카테고리는 {selected_tag} 로 하겠습니다.')
 try:
@@ -174,10 +173,10 @@ tags: {tags}
 output = page_outline + '\n' + \
     "![Image of a Cat](http://source.unsplash.com/1600x900/?cat)" + \
     '\n' + common_error + '\n' + error_body + '\n' + recommend_site
-
 print("파일을 생성하기 전 잠깐 기다립니다.")
-blog_directory = "/home/yoon/blog/1yoouoo.github.io/_posts"
-# mac_directory = "/Users/blanc/Documents/ChatGPT/1yoouoo.github.io/_posts"
+blog_directory = "/home/yoon/ChatGPT/ChatGPT-blog/_posts"
+
+# blog_directory = "/Users/blanc/Documents/ChatGPT/ChatGPT-blog/_posts"
 
 time.sleep(2)
 # 파일 이름 생성
