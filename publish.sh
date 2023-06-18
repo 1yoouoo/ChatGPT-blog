@@ -3,6 +3,7 @@ echo "started"
 cd /home/yoon/ChatGPT/ChatGPT-blog
 /usr/bin/python3 main.py >> /home/yoon/ChatGPT/ChatGPT-blog/main.log 2>&1 
 
+git pull origin nextjs
 git config --local user.name "blanc"
 git config --local user.email "1yoouoo@gmail.com" 
 sleep 0.1
