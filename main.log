@@ -121,3 +121,15 @@ NameError: name 'title' is not defined. Did you mean: 'time'?
 파일을 생성하겠습니다.
 모든 작업이 끝났습니다.
 #####################################################################
+#####################################################################
+2023-06-18 15:00:02.047602+09:00
+카테고리는 react 로 하겠습니다.
+주제는 Type &#39;Merge&lt;FieldError, FieldErrorsImpl&lt;DeepRequired&lt;any&gt;&gt;&gt; | undefined&#39; is not assignable to type &#39;string | undefined&#39; 로 하겠습니다.
+제목 만들었습니다. "Resolving Type Assignment Error in StackOverflow: A Deep Dive into Merge<FieldError, FieldErrorsImpl<DeepRequired<any>>> vs String | Undefined" : 137
+본문 1/2 만들었습니다. : 1172
+본문 2/2 만들었습니다. : 990
+참고할만한 사이트를 만들었습니다. "Resolving Type Assignment Error in StackOverflow: A Deep Dive into Merge<FieldError, FieldErrorsImpl<DeepRequired<any>>> vs String | Undefined" : 310
+파일을 생성하기 전 잠깐 기다립니다.
+파일을 생성하겠습니다.
+모든 작업이 끝났습니다.
+#####################################################################
