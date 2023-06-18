@@ -1,7 +1,7 @@
 echo "started"
 
 # 브랜치 이름 배열
-BRANCHES=("nextjs" "javascript" "react" "python" "java" "spring" "vue" "redux" "main")
+BRANCHES=("nextjs" "javascript" "react" "python" "java" "spring" "vue" "redux" "main" "main" "main" "main")
 
 # 배열에서 랜덤하게 브랜치 이름 선택
 BRANCH=${BRANCHES[$RANDOM % ${#BRANCHES[@]}]}
