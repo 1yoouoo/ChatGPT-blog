@@ -18,5 +18,3 @@ echo "$BRANCH 입니다."
 git checkout $BRANCH
 sleep 0.1
 ./publish.sh
-
-
