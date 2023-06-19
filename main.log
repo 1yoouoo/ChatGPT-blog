@@ -169,3 +169,18 @@ NameError: name 'title' is not defined. Did you mean: 'time'?
 파일을 생성하겠습니다.
 모든 작업이 끝났습니다.
 #####################################################################
+#####################################################################
+2023-06-19 23:00:02.185241+09:00
+카테고리는 react 로 하겠습니다.
+주제는 Jest to vitest migration error; equivalent of moduleNameMapper 로 하겠습니다.
+제목 만들었습니다. "Resolving Jest to Vitest Migration Error: Understanding the Equivalent of moduleNameMapper" : 89
+본문 오류발생 :  The server had an error while processing your request. Sorry about that! {
+  "error": {
+    "message": "The server had an error while processing your request. Sorry about that!",
+    "type": "server_error",
+    "param": null,
+    "code": null
+  }
+}
+ 500 {'error': {'message': 'The server had an error while processing your request. Sorry about that!', 'type': 'server_error', 'param': None, 'code': None}} {'Date': 'Mon, 19 Jun 2023 14:00:16 GMT', 'Content-Type': 'application/json', 'Content-Length': '176', 'Connection': 'keep-alive', 'access-control-allow-origin': '*', 'openai-model': 'gpt-4-0613', 'openai-organization': 'user-cfljr7asc24pxittu0n11pgh', 'openai-processing-ms': '36', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'x-ratelimit-limit-requests': '3000', 'x-ratelimit-limit-tokens': '250000', 'x-ratelimit-remaining-requests': '2999', 'x-ratelimit-remaining-tokens': '247201', 'x-ratelimit-reset-requests': '20ms', 'x-ratelimit-reset-tokens': '671ms', 'x-request-id': '1b51083b390239a50380948c39b90801', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '7d9c4c1eae54c185-ICN', 'alt-svc': 'h3=":443"; ma=86400'}
+프로그램 종료.
