@@ -70,3 +70,18 @@
 파일을 생성하겠습니다.
 모든 작업이 끝났습니다.
 #####################################################################
+#####################################################################
+2023-06-20 03:00:01.412120+09:00
+카테고리는 python 로 하겠습니다.
+주제는 OpenAI ChatGPT (GPT-3.5) API error 429: &quot;You exceeded your current quota, please check your plan and billing details&quot; 로 하겠습니다.
+제목 만들었습니다. "Understanding and Resolving the OpenAI ChatGPT API Error 429" : 113
+본문 1/2 만들었습니다. : 1575
+본문 오류발생 :  HTTP code 502 from API (<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+)
+프로그램 종료.
