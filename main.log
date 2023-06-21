@@ -137,3 +137,15 @@ Traceback (most recent call last):
   File "/home/yoon/ChatGPT/ChatGPT-blog/main.py", line 126, in <module>
     print("title", title)
 NameError: name 'title' is not defined. Did you mean: 'time'?
+#####################################################################
+2023-06-22 05:00:01.767041+09:00
+카테고리는 python 로 하겠습니다.
+주제는 Heroku postgres postgis - django releases fail with: relation &quot;spatial_ref_sys&quot; does not exist 로 하겠습니다.
+제목 만들었습니다. "Solving the 'Relation Spatial_ref_sys Does Not Exist' Error in Heroku Postgres PostGIS with Django" : 108
+본문 1/2 만들었습니다. : 1503
+본문 2/2 만들었습니다. : 1364
+참고할만한 사이트를 만들었습니다. "Solving the 'Relation Spatial_ref_sys Does Not Exist' Error in Heroku Postgres PostGIS with Django" : 326
+파일을 생성하기 전 잠깐 기다립니다.
+파일을 생성하겠습니다.
+모든 작업이 끝났습니다.
+#####################################################################
