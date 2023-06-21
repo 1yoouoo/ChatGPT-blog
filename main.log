@@ -160,3 +160,15 @@ NameError: name 'title' is not defined. Did you mean: 'time'?
 파일을 생성하겠습니다.
 모든 작업이 끝났습니다.
 #####################################################################
+#####################################################################
+2023-06-21 09:00:01.459569+09:00
+카테고리는 css 로 하겠습니다.
+주제는 Sticky HTML element gets hidden below the Mobile navigation bar in chrome / Firefox mobile browser. How to fix this? [ UPDATED ] 로 하겠습니다.
+제목 만들었습니다. Fixing the Hidden Sticky HTML Element Below the Mobile Navigation Bar in Chrome/Firefox Mobile Browser : 105
+본문 1/2 만들었습니다. : 1348
+본문 2/2 만들었습니다. : 961
+참고할만한 사이트를 만들었습니다. Fixing the Hidden Sticky HTML Element Below the Mobile Navigation Bar in Chrome/Firefox Mobile Browser : 460
+파일을 생성하기 전 잠깐 기다립니다.
+파일을 생성하겠습니다.
+파일 생성 오류 발생 :  [Errno 2] No such file or directory: '/home/yoon/ChatGPT/ChatGPT-blog/_posts/2023-06-20-fixing-the-hidden-sticky-html-element-below-the-mobile-navigation-bar-in-chrome/firefox-mobile-browser.md'
+프로그램 종료.
