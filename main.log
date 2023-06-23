@@ -318,3 +318,10 @@ NameError: name 'title' is not defined. Did you mean: 'time'?
 파일을 생성하겠습니다.
 모든 작업이 끝났습니다.
 #####################################################################
+#####################################################################
+2023-06-23 09:00:01.976557+09:00
+카테고리는 typescript 로 하겠습니다.
+주제는 Universal pathing in a React app with multiple workspaces - how to do it? 로 하겠습니다.
+제목 만들었습니다. "Implementing Universal Pathing in a Multi-Workspace React Application" : 92
+본문 오류발생 :  You exceeded your current quota, please check your plan and billing details.
+프로그램 종료.
