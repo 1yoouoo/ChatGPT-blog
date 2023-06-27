@@ -709,3 +709,15 @@ NameError: name 'title' is not defined. Did you mean: 'time'?
 파일을 생성하겠습니다.
 파일 생성 오류 발생 :  [Errno 2] No such file or directory: '/home/yoon/ChatGPT/ChatGPT-blog/_posts/2023-06-26-understanding-the-difference-between-tanstack/react-query-and-react-query-in-stackoverflow-errors.md'
 프로그램 종료.
+#####################################################################
+2023-06-28 03:00:02.259837+09:00
+카테고리는 typescript 로 하겠습니다.
+주제는 Zod Schema: How to make a field optional OR have a minimum string contraint? 로 하겠습니다.
+제목 만들었습니다. "Resolving Field Optionality and Minimum String Constraints in Zod Schema" : 94
+본문 1/2 만들었습니다. : 1209
+본문 2/2 만들었습니다. : 930
+참고할만한 사이트를 만들었습니다. "Resolving Field Optionality and Minimum String Constraints in Zod Schema" : 286
+파일을 생성하기 전 잠깐 기다립니다.
+파일을 생성하겠습니다.
+모든 작업이 끝났습니다.
+#####################################################################
