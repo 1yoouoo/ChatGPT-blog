@@ -303,3 +303,15 @@ Traceback (most recent call last):
   File "/home/yoon/ChatGPT/ChatGPT-blog/main.py", line 126, in <module>
     print("title", title)
 NameError: name 'title' is not defined. Did you mean: 'time'?
+#####################################################################
+2023-06-28 11:00:01.588817+09:00
+카테고리는 nestjs 로 하겠습니다.
+주제는 how to set multi type for one field (with type of array or object) of schema (Typescript , NestJs) 로 하겠습니다.
+제목 만들었습니다. "Setting Multiple Types for a Single Field in Schema: A Guide for TypeScript and NestJs" : 105
+본문 1/2 만들었습니다. : 1084
+본문 2/2 만들었습니다. : 1016
+참고할만한 사이트를 만들었습니다. "Setting Multiple Types for a Single Field in Schema: A Guide for TypeScript and NestJs" : 256
+파일을 생성하기 전 잠깐 기다립니다.
+파일을 생성하겠습니다.
+모든 작업이 끝났습니다.
+#####################################################################
