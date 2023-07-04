@@ -352,3 +352,15 @@ NameError: name 'title' is not defined. Did you mean: 'time'?
 파일을 생성하겠습니다.
 모든 작업이 끝났습니다.
 #####################################################################
+#####################################################################
+2023-07-04 15:00:02.297898+09:00
+카테고리는 javascript 로 하겠습니다.
+주제는 Could not find a declaration file for module &#39;react-dom/client&#39; 로 하겠습니다.
+제목 만들었습니다. "Resolving the 'Could not find a declaration file for module react-dom/client' Error in StackOverflow" : 100
+본문 1/2 만들었습니다. : 1136
+본문 2/2 만들었습니다. : 863
+참고할만한 사이트를 만들었습니다. "Resolving the 'Could not find a declaration file for module react-dom/client' Error in StackOverflow" : 488
+파일을 생성하기 전 잠깐 기다립니다.
+파일을 생성하겠습니다.
+파일 생성 오류 발생 :  [Errno 2] No such file or directory: "/home/yoon/ChatGPT/ChatGPT-blog/_posts/2023-07-03-resolving-the-'could-not-find-a-declaration-file-for-module-react-dom/client'-error-in-stackoverflow.md"
+프로그램 종료.
