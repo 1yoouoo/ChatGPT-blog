@@ -190,3 +190,8 @@ NameError: name 'title' is not defined. Did you mean: 'time'?
 제목 만들었습니다. "Implementing New Line Per Attribute in Vue Using Prettier in VS Code: A Comprehensive Guide" : 99
 본문 오류발생 :  The server is overloaded or not ready yet.
 프로그램 종료.
+#####################################################################
+2023-07-07 07:00:01.596239+09:00
+카테고리는 vue 로 하겠습니다.
+StackAPI 오류발생 :  list index out of range
+프로그램 종료.
