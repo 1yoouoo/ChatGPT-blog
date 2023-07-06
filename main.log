@@ -391,3 +391,15 @@ NameError: name 'title' is not defined. Did you mean: 'time'?
 파일을 생성하겠습니다.
 모든 작업이 끝났습니다.
 #####################################################################
+#####################################################################
+2023-07-06 21:00:01.873052+09:00
+카테고리는 react 로 하겠습니다.
+주제는 Type &#39;MutableRefObject&lt;HTMLInputElement | undefined&gt;&#39; is not assignable to type &#39;LegacyRef&lt;HTMLInputElement&gt; | undefined&#39; 로 하겠습니다.
+제목 만들었습니다. "Resolving Type Compatibility Issues between MutableRefObject and LegacyRef in React" : 115
+본문 1/2 만들었습니다. : 1127
+본문 2/2 만들었습니다. : 882
+참고할만한 사이트를 만들었습니다. "Resolving Type Compatibility Issues between MutableRefObject and LegacyRef in React" : 282
+파일을 생성하기 전 잠깐 기다립니다.
+파일을 생성하겠습니다.
+모든 작업이 끝났습니다.
+#####################################################################
