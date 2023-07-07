@@ -1134,3 +1134,18 @@ StackAPI 오류발생 :  list index out of range
 파일을 생성하겠습니다.
 모든 작업이 끝났습니다.
 #####################################################################
+#####################################################################
+2023-07-07 13:00:02.175653+09:00
+카테고리는 javascript 로 하겠습니다.
+주제는 Uncaught Error: Minified React error #425. Help me 로 하겠습니다.
+제목 만들었습니다. "Decoding and Resolving the Minified React Error #425 on StackOverflow" : 91
+본문 오류발생 :  Request failed due to server shutdown {
+  "error": {
+    "message": "Request failed due to server shutdown",
+    "type": "server_error",
+    "param": null,
+    "code": null
+  }
+}
+ 500 {'error': {'message': 'Request failed due to server shutdown', 'type': 'server_error', 'param': None, 'code': None}} {'Date': 'Fri, 07 Jul 2023 04:01:39 GMT', 'Content-Type': 'application/json', 'Content-Length': '141', 'Connection': 'keep-alive', 'access-control-allow-origin': '*', 'openai-model': 'gpt-4-0613', 'openai-organization': 'user-cfljr7asc24pxittu0n11pgh', 'openai-processing-ms': '89722', 'openai-version': '2020-10-01', 'strict-transport-security': 'max-age=15724800; includeSubDomains', 'x-ratelimit-limit-requests': '200', 'x-ratelimit-limit-tokens': '40000', 'x-ratelimit-remaining-requests': '199', 'x-ratelimit-remaining-tokens': '37213', 'x-ratelimit-reset-requests': '300ms', 'x-ratelimit-reset-tokens': '4.18s', 'x-request-id': '5871f0b242dea35c26c4cafdf3035df6', 'CF-Cache-Status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '7e2d2dca2e9dc055-ICN', 'alt-svc': 'h3=":443"; ma=86400'}
+프로그램 종료.
