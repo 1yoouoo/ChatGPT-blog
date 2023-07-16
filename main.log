@@ -492,3 +492,15 @@ NameError: name 'title' is not defined. Did you mean: 'time'?
 파일을 생성하겠습니다.
 파일 생성 오류 발생 :  [Errno 2] No such file or directory: '/home/yoon/ChatGPT/ChatGPT-blog/_posts/2023-07-14-troubleshooting-hot-reloading-issues-in-nestjs/docker-compose-multistage-projects.md'
 프로그램 종료.
+#####################################################################
+2023-07-17 05:00:01.811626+09:00
+카테고리는 nestjs 로 하겠습니다.
+주제는 Error: Only URLs with a scheme in: file and data are supported by the default ESM loader in NestJS app generated with NX in a monorepo 로 하겠습니다.
+제목 만들었습니다. Resolving URL Scheme Errors in NestJS App Generated with NX in a Monorepo : 110
+본문 1/2 만들었습니다. : 1071
+본문 2/2 만들었습니다. : 1167
+참고할만한 사이트를 만들었습니다. Resolving URL Scheme Errors in NestJS App Generated with NX in a Monorepo : 418
+파일을 생성하기 전 잠깐 기다립니다.
+파일을 생성하겠습니다.
+모든 작업이 끝났습니다.
+#####################################################################
