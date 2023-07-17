@@ -597,3 +597,15 @@ NameError: name 'title' is not defined. Did you mean: 'time'?
 파일을 생성하겠습니다.
 모든 작업이 끝났습니다.
 #####################################################################
+#####################################################################
+2023-07-17 23:00:02.039152+09:00
+카테고리는 java 로 하겠습니다.
+주제는 Why does String creation using `newInstance()` method behave different when using `var` compared to using explicit type `String`? 로 하겠습니다.
+제목 만들었습니다. Understanding the Difference in String Creation Using `newInstance()` Method: `var` vs Explicit Type `String` : 107
+본문 1/2 만들었습니다. : 1054
+본문 2/2 만들었습니다. : 946
+참고할만한 사이트를 만들었습니다. Understanding the Difference in String Creation Using `newInstance()` Method: `var` vs Explicit Type `String` : 330
+파일을 생성하기 전 잠깐 기다립니다.
+파일을 생성하겠습니다.
+모든 작업이 끝났습니다.
+#####################################################################
