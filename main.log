@@ -628,3 +628,15 @@ NameError: name 'title' is not defined. Did you mean: 'time'?
 파일을 생성하겠습니다.
 모든 작업이 끝났습니다.
 #####################################################################
+#####################################################################
+2023-07-18 19:00:01.645322+09:00
+카테고리는 python 로 하겠습니다.
+주제는 ImportError: urllib3 v2.0 only supports OpenSSL 1.1.1+, currently the &#39;ssl&#39; module is compiled with LibreSSL 2.8.3 로 하겠습니다.
+제목 만들었습니다. "Resolving ImportError: Upgrading OpenSSL for urllib3 v2.0 Compatibility" : 117
+본문 1/2 만들었습니다. : 1073
+본문 2/2 만들었습니다. : 1060
+참고할만한 사이트를 만들었습니다. "Resolving ImportError: Upgrading OpenSSL for urllib3 v2.0 Compatibility" : 325
+파일을 생성하기 전 잠깐 기다립니다.
+파일을 생성하겠습니다.
+모든 작업이 끝났습니다.
+#####################################################################
